@@ -1,0 +1,23 @@
+{
+    "name": "boy/s3-materi",
+    "description": "Sistem Penyimpanan Materi Perkuliahan Menggunakan S3",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Boy\\S3Materi\\": "src/",
+            "App\\Controllers\\": "app/controllers/",
+            "App\\Models\\": "app/models/",
+            "App\\Helpers\\": "app/helpers/"
+        }
+    },
+    "authors": [
+        {
+            "name": "M Syaiful Anam"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "aws/aws-sdk-php": "^3.388"
+    }
+}
